@@ -11,8 +11,6 @@ const HomePage = () => {
     handleSubmit,
     handleChange,
     search,
-    searchAnime,
-    getPopularAnime,
     getUpcomingAnime,
     getAiringAnime,
   } = useGlobalContext();
