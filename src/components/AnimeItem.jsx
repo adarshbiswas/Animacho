@@ -31,7 +31,6 @@ const AnimeItem = () => {
     popularity,
     status,
     rating,
-    source,
     year,
     episodes,
   } = animeInfo;
