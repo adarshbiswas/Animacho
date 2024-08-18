@@ -6,7 +6,7 @@ import { useGlobalContext } from "../context/GlobalContext";
 import { IoMenu } from "react-icons/io5";
 import { MdBookmarkAdd } from "react-icons/md";
 
-const HomePage = () => {
+const Homepage = () => {
   const {
     handleSubmit,
     handleChange,
@@ -108,4 +108,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Homepage;

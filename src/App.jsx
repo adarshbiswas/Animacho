@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import AnimeItem from "./components/AnimeItem.jsx";
-import HomePage from "./components/HomePage";
-import Gallery from "./components/Gallery";
+import Homepage from "./components/Homepage.jsx";
+import Gallery from "./components/Gallery.jsx";
 
 function App() {
   return (
     <div className="app bg-[#0E0E0E]">
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/anime/:id" element={<AnimeItem />} />
         <Route path="/characters/:id" element={<Gallery />} />
       </Routes>
